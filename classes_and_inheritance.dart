@@ -1,9 +1,9 @@
-import 'dart.io';
+import 'dart:io';
 
 void main(){
   Cuadrado cuadr = Cuadrado();
   cuadr.base = 20;
-  cuadr.altura = 20;
+  cuadr.altura = 40;
   print("The Area is: ${cuadr.area}");
   print("The Perimeter is: ${cuadr.perimetro}");
   print("The Side is: ${cuadr.lado}");
